@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Stratum2";
+  src: url("../fonts/stratum2-regular-webfont.ttf"),
+    url("../fonts/stratum2-bold-webfont.ttf");
+}
+body {
+  font-family: "Stratum2", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  transition: all 0.4s;
+  border-bottom: 1px solid #aaa6;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .active .nav-link {
+  color: #13538b;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    /* background: #fff; */
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #555;
+  }
+}
+
+/* Carousel */
+#carouselHome .carousel-caption {
+  top: 15%!important;
+}
+#carouselHome .carousel-caption {
+  top: 15%!important;
+}
+#carouselHome .carousel-indicators {
+  justify-content: start!important;
+  margin-bottom: 2.5em;
+}
+#carouselHome .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+#carouselHome .carousel-indicators .active {
+  background-color: #7edf6f;
+}
