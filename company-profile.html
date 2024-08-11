@@ -297,10 +297,12 @@
   <script>
     $(function () {
       $(window).on("scroll", function () {
-        if ($(window).scrollTop() > 10) {
+        if ($(window).scrollTop() > 20) {
           $(".navbar").addClass("active");
+          $(".header").addClass("fixed-top");
         } else {
           $(".navbar").removeClass("active");
+          $(".header").removeClass("fixed-top");
         }
       });
     });

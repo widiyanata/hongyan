@@ -147,3 +147,7 @@ img.bg_man {
   font-weight: bold;
   margin-top: 5px;
 }
+
+.header li.nav-item.active a {
+  border-bottom: 2px solid;
+}
