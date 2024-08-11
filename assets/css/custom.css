@@ -4,17 +4,23 @@
     url("../fonts/stratum2-bold-webfont.ttf");
 }
 body {
-  font-family: "Stratum2", sans-serif;
+  /* font-family: "Stratum2", sans-serif; */
 }
 
 img {
   max-width: 100%;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #2d425c;
+  border-color: #2f445d;
+}
+
 /* Navbar */
 .navbar {
   transition: all 0.4s;
-  border-bottom: 1px solid #aaa6;
+  /* border-bottom: 1px solid #aaa6; */
 }
 
 /* Change navbar styling on scroll */
@@ -73,4 +79,17 @@ img {
 }
 #carouselHome .carousel-indicators .active {
   background-color: #7edf6f;
+}
+
+.company-overview-text {
+  background: #2e435d8f;
+  border-radius: 100px 0 0;
+  padding-left: 8em!important;
+  margin-top: 4em;
+}
+
+.banner-overview {
+  border-radius: 50px;
+  background: #eee;
+  overflow: hidden;
 }

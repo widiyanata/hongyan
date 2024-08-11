@@ -13,9 +13,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/css/custom.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -33,7 +38,7 @@
             <i class="fa fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-lg-5 text-uppercase">
+            <ul class="navbar-nav ms-auto text-uppercase">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
@@ -41,19 +46,16 @@
                 <a class="nav-link" href="about.html">Company</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.html">Trucks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="part-and-services.html">Parts and services</a>
+                <a class="nav-link" href="products.html">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="network.html">Network</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news-update.html">News and Promo</a>
+                <a class="nav-link" href="news-update.html">News</a>
               </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="d-md-block  navbar-form navbar-right">
                 <button class="search-form-tigger btn btn-transparent bg-transparent nav-link px-3"
                   data-toggle="collapse" data-parent="#searchbar" href="#searchinput" aria-expanded="true"
@@ -110,31 +112,14 @@
     <!-- SILDER -->
     <div id="carouselHome" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
-        <li
-          data-bs-target="#carouselHome"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="First slide"
-        ></li>
-        <li
-          data-bs-target="#carouselHome"
-          data-bs-slide-to="1"
-          aria-label="Second slide"
-        ></li>
-        <li
-          data-bs-target="#carouselHome"
-          data-bs-slide-to="2"
-          aria-label="Third slide"
-        ></li>
+        <li data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="First slide"></li>
+        <li data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Third slide"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img
-            src="assets/img/homepage/banner_1.png"
-            class="w-100 d-block"
-            alt="First slide"
-          />
+          <img src="assets/img/homepage/banner_1.png" class="w-100 d-block" alt="First slide" />
           <div class="carousel-caption d-none d-md-block">
             <h3>OUTSTANDING SAFETY DESIGN</h3>
             <!-- <p class="text-white fs-1">HONGYAN</p> -->
@@ -142,11 +127,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="assets/img/homepage/banner_2.png"
-            class="w-100 d-block"
-            alt="First slide"
-          />
+          <img src="assets/img/homepage/banner_2-new.png" class="w-100 d-block" alt="First slide" />
           <div class="carousel-caption d-none d-md-block">
             <h3>OUTSTANDING SAFETY DESIGN</h3>
             <!-- <p class="text-white fs-1">HONGYAN</p> -->
@@ -154,11 +135,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="assets/img/homepage/banner_1.png"
-            class="w-100 d-block"
-            alt="First slide"
-          />
+          <img src="assets/img/homepage/banner_1.png" class="w-100 d-block" alt="First slide" />
           <div class="carousel-caption d-none d-md-block">
             <h3>OUTSTANDING SAFETY DESIGN</h3>
             <!-- <p class="text-white fs-1">HONGYAN</p> -->
@@ -166,21 +143,11 @@
           </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselHome"
-        data-bs-slide="prev"
-      >
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselHome"
-        data-bs-slide="next"
-      >
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -189,32 +156,256 @@
 
   <main class="">
     <!-- Company Overview -->
-     <div class="section" id="company-overview">
+    <div class="section mt-5" id="company-overview">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="text-center">Company Overview</h2>
+        <div class="banner-overview" style="background: url(assets/img/homepage/Company_overview.png);">
+          <div class="row">
+            <div class="col-md-5">
+
+            </div>
+            <div class="col-md-7">
+              <div class="company-overview-text p-5 text-white">
+                <h3>Company Overview</h3>
+                <p>PT Naraya Dipta Buana is a truck dealership since 2024, subsidiary of PT
+                  Mahadana Dasha Utama, which is part of the Tiara Marga Trakindo Group.
+                  The company currently owns dealership of HONGYAN truck and has a wide
+                  and reliable distribution network in several city within Indonesia.</p>
+                <a href="about.html" class="btn btn-primary rounded-pill">About Us</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-     </div>
-   
+    </div>
+
+    <!-- Vehicle Model -->
+    <div class="section mt-5" id="vehicle-model">
+      <div class="container px-5">
+
+        <div id="vehicle-model-slider" class="">
+          <h3 class="text- ps-5">Our Vehicle Model</h3>
+          <!-- Slider main container -->
+          <div class="swiper w-100 p-5">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide col-4">
+                <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/350x250" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">RIGID 6X4</h4>
+                    <p class="card-text">Driver focused cabin</p>
+                  </div>
+                </div>
+                <p class="text-center mt-3">
+                  <a href="#" class="btn btn-primary rounded-md">View more <i class="fa fa-angle-double-right"></i></a>
+                </p>
+              </div>
+              <div class="swiper-slide col-4">
+                <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/350x250" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">RIGID 6X4</h4>
+                    <p class="card-text">Driver focused cabin</p>
+                  </div>
+                </div>
+                <p class="text-center mt-3">
+                  <a href="#" class="btn btn-primary rounded-md">View more <i class="fa fa-angle-double-right"></i></a>
+                </p>
+              </div>
+              <div class="swiper-slide col-4">
+                <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/350x250" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">RIGID 6X4</h4>
+                    <p class="card-text">Driver focused cabin</p>
+                  </div>
+                </div>
+                <p class="text-center mt-3">
+                  <a href="#" class="btn btn-primary rounded-md">View more <i class="fa fa-angle-double-right"></i></a>
+                </p>
+              </div>
+              <div class="swiper-slide col-4">
+                <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/350x250" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">RIGID 6X4</h4>
+                    <p class="card-text">Driver focused cabin</p>
+                  </div>
+                </div>
+                <p class="text-center mt-3">
+                  <a href="#" class="btn btn-primary rounded-md">View more <i class="fa fa-angle-double-right"></i></a>
+                </p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+        </div>
+
+        <div id="newsroom" class="ps-5">
+          <h3>NEWSROOM</h3>
+          <div class="row mt-5 align-items-center gx-5 mb-3">
+            <div class="col-md-7">
+              <img src="http://via.placeholder.com/650x250" class="img-fluid w-100 rounded-3" alt="">
+            </div>
+            <div class="col-md-5">
+              <h4>Movable first-class cabin, authentic comfortability</h4>
+              <p>Four-point suspension cab with IVECO patent, top
+                mute design, ergonomics design comparable with
+                aircraft first-class cabin and amazing driving
+                experience.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="row mt-5 align-items-center gx-5 mb-3">
+            <div class="col-md-7 order-md-2">
+              <img src="http://via.placeholder.com/650x250" class="img-fluid w-100 rounded-3" alt="">
+            </div>
+            <div class="col-md-5">
+              <h4>Movable first-class cabin, authentic comfortability</h4>
+              <p>Four-point suspension cab with IVECO patent, top
+                mute design, ergonomics design comparable with
+                aircraft first-class cabin and amazing driving
+                experience.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="row mt-5 align-items-center gx-5 mb-3">
+            <div class="col-md-7">
+              <img src="http://via.placeholder.com/650x250" class="img-fluid w-100 rounded-3" alt="">
+            </div>
+            <div class="col-md-5">
+              <h4>Movable first-class cabin, authentic comfortability</h4>
+              <p>Four-point suspension cab with IVECO patent, top
+                mute design, ergonomics design comparable with
+                aircraft first-class cabin and amazing driving
+                experience.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimony -->
+    <div class="section mt-5" id="testimony">
+      <div class="container">
+        <div class="testimony-banner"
+          style="background: url(assets/img/homepage/customer_voice.png);background-size: cover;background-position: center;/* height: 350px; */border-radius: 50px;">
+          <div class="row align-items-end h-100">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <div id="carouselTesti" class="carousel slide mt-5" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselTesti" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                  <li data-bs-target="#carouselTesti" data-bs-slide-to="1" aria-label="Second slide"></li>
+                  <li data-bs-target="#carouselTesti" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                      <div class="col-8">
+                        <div class="py-5 text-white">
+                          <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <h5 class="mb-5">Sukma Kokoh Prana (PT Cipta Krida Bahar)</h5>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-center">
+                      <div class="col-8">
+                        <div class="py-5 text-white">
+                          <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <h5 class="mb-5">Sukma Kokoh Prana (PT Cipta Krida Bahar)</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-center">
+                      <div class="col-8">
+                        <div class="py-5 text-white">
+                          <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <h5 class="mb-5">Sukma Kokoh Prana (PT Cipta Krida Bahar)</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTesti"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTesti"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <style>
+                #carouselTesti .carousel-indicators {
+                  justify-content: start;
+                  margin-left: 17%;
+                }
+                #carouselTesti .carousel-indicators [data-bs-target] {
+                  width: 10px;
+                  height: 10px;
+                  border-radius: 50%;
+                }
+                #carouselTesti .carousel-indicators .active {
+                  background-color: #7edf6f;
+                }
+              </style>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
-  
+
 
   <style>
     .carousel-control-next {
       right: 20px;
     }
+
     .carousel-control-prev {
       left: 20px;
     }
+
     button.close {
       position: absolute;
       top: 10px;
       right: 10px;
       z-index: 999;
+    }
+
+    .swiper {
+      /* width: 600px; */
+      height: auto;
+    }
+
+    .swiper .card-body {
+      text-align: center;
     }
   </style>
 
@@ -297,7 +488,9 @@
       crossorigin="anonymous"
     ></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 
   <script src="assets/js/main.js"></script>
 
@@ -311,15 +504,40 @@
         }
       });
     });
+  </script>
 
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      // direction: 'vertical',
+      loop: true,
+      spaceBetween: 60,
+      slidesPerView: 3,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+    });
   </script>
 
   <!-- Step wizard -->
   <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/smart_wizard.min.css" rel="stylesheet"
     type="text/css" />
   <!-- <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/smart_wizard_theme_arrows.min.css" rel="stylesheet" type="text/css" /> -->
-  <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/jquery.smartWizard.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/jquery.smartWizard.min.js">
+  </script>
 
   <!-- Wizard js -->
   <script>
@@ -344,15 +562,14 @@
         // Navigate next
         $('#smartwizard').smartWizard("prev");
       })
-     
-  $("#definetruck").on("hidden.bs.modal", function (e) {
-    $('#smartwizard').smartWizard("reset"); 
-  });
+
+      $("#definetruck").on("hidden.bs.modal", function (e) {
+        $('#smartwizard').smartWizard("reset");
+      });
 
 
 
     });
-
   </script>
 </body>
 
