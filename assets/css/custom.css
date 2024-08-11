@@ -93,3 +93,26 @@ img {
   background: #eee;
   overflow: hidden;
 }
+
+.gap {
+  margin: 3.5em 0;
+  display: flex;
+}
+
+/* vehicle model slider */
+img.img-offside {
+  position: absolute;
+  max-width: 200px;
+  left: -40px;
+}
+
+div#vehicle-model-slider .card {
+  padding-top: 2em;
+  border-radius: 25px;
+  margin: 0 1em;
+}
+
+.top-footer {
+  background: #13304a;
+  height: 305px;
+}
