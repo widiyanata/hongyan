@@ -13,8 +13,12 @@ img {
 
 .btn-primary {
   color: #fff;
-  background-color: #2d425c;
+  background-color: #2d425c!important;
   border-color: #2f445d;
+}
+
+.bg-primary {
+  background-color: #2d425c!important;
 }
 
 /* Navbar */
@@ -115,4 +119,16 @@ div#vehicle-model-slider .card {
 .top-footer {
   background: #13304a;
   height: 305px;
+}
+
+li.nav-item.active a {
+  color: #4ce2ad !important;
+}
+
+img.bg_man {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
