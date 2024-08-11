@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hongyan HTML</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/custom.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Navigasi -->
+    <div class="header ">
+      <nav class="navbar navbar-expand-lg navbar-light py-4  px-5 navbar-homepage">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" width="100px" height="auto" alt="" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-uppercase">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="company-profile.html">Company</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="network.html">Network</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news-update.html">News</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="d-md-block  navbar-form navbar-right">
+                <button class="search-form-tigger btn btn-transparent bg-transparent nav-link px-3"
+                  data-toggle="collapse" data-parent="#searchbar" href="#searchinput" aria-expanded="true"
+                  aria-controls="searchinput">
+                  <i class="fa fa-search" style="font-size: 24px;" aria-hidden="true"></i>
+                </button>
+              </li>
+              <li>
+                <a href="contact.html" class="btn btn-outline-white nav-link">CONTACT US</a>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <button class="btn btn-transparent dropdown-toggle nav-link border-left ml-3 px-3" type="button"
+                    id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    EN
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="triggerId">
+                    <a class="dropdown-item" href="#">ID</a>
+                    <a class="dropdown-item " href="#">Fr</a>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="searchwrapper" class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div id="searchbar" role="tablist" aria-multiselectable="true">
+                <div id="searchinput" class="collapse in my-4" role="tabpanel" aria-labelledby="section1HeaderId">
+                  <div class="input-group">
+                    <input type="text" class="form-control border-0 text-center" name="name" id="name"
+                      placeholder="Search here..." aria-label="" />
+                    <span class="input-group-btn">
+                      <button class="btn btn-secondary" type="submit" aria-label="">
+                        <i class="fa fa-search"></i>
+
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- Subnavigation -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-white p-0 border">
+    <h5 class="
+          subnav-title
+          p-2
+          bg-primary
+          mb-0
+          px-5
+          text-white text-uppercase
+        ">
+      Products
+    </h5>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav ms-3 me-auto mt-2 mt-lg-0 text-uppercase pl-3 gap-3">
+        <li class="nav-item active">
+          <a class="nav-link " href="#">Hongyan</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Hongyan 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hongyan 3</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="">
+
+    <div class="gap"></div>
+
+    <div class="container">
+      <div class="products">
+        <div class="product my-5 px-5 py-4" style="
+          background-image: linear-gradient(171deg, #434343, #00000000), url(http://via.placeholder.com/800x600);
+      
+          /* Ensure the background covers the entire element */
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+
+          /* Set a fallback background color */
+              background-color: #333;
+          ">
+          <div class="row align-items-center">
+            <!-- Product detail -->
+            <div class="col-md-6">
+              <div class="product-detail pe-4 text-white">
+                <div class="product-title">
+                  <h4>Hongyan</h4>
+                  <h3>Product Name</h3>
+                </div>
+                <div class="product-desc mb-4">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem excepturi</p>
+                </div>
+                <div class="product-spec">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="spec-label">Engine</div>
+                      <div class="spec-value">
+                        430 - 480 HP <br>
+                        Cursor 13
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="spec-label">GVW/GCW</div>
+                      <div class="spec-value">
+                        GVW 41–58 Ton <br>GCW 150 Ton
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="spec-label">Axle Configuration</div>
+                      <div class="spec-value">
+                        6x4, 6x6, 8x4
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-btn mt-3">
+                  <a class="btn btn-danger" href="#">View more &gt;&gt; </a>
+                </div>
+              </div>
+            </div>
+            <!-- Product image -->
+            <div class="col-md-6">
+              <div class="product-img">
+                <img src="assets/img/tractorhead.png" alt="" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product my-5 px-5 py-4" style="
+          background-image: linear-gradient(171deg, #434343, #00000000), url(http://via.placeholder.com/800x600);
+      
+          /* Ensure the background covers the entire element */
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+
+          /* Set a fallback background color */
+              background-color: #333;
+          ">
+          <div class="row align-items-center">
+            <!-- Product detail -->
+            <div class="col-md-6 order-md-2">
+              <div class="product-detail pe-4 text-white">
+                <div class="product-title">
+                  <h4>Hongyan</h4>
+                  <h3>Product Name</h3>
+                </div>
+                <div class="product-desc mb-4">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem excepturi</p>
+                </div>
+                <div class="product-spec">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="spec-label">Engine</div>
+                      <div class="spec-value">
+                        430 - 480 HP <br>
+                        Cursor 13
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="spec-label">GVW/GCW</div>
+                      <div class="spec-value">
+                        GVW 41–58 Ton <br>GCW 150 Ton
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="spec-label">Axle Configuration</div>
+                      <div class="spec-value">
+                        6x4, 6x6, 8x4
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-btn mt-3">
+                  <a class="btn btn-danger" href="#">View more &gt;&gt; </a>
+                </div>
+              </div>
+            </div>
+            <!-- Product image -->
+            <div class="col-md-6">
+              <div class="product-img">
+                <img src="assets/img/tractorhead.png" alt="" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product my-5 px-5 py-4" style="
+          background-image: linear-gradient(171deg, #434343, #00000000), url(http://via.placeholder.com/800x600);
+      
+          /* Ensure the background covers the entire element */
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+
+          /* Set a fallback background color */
+              background-color: #333;
+          ">
+          <div class="row align-items-center">
+            <!-- Product detail -->
+            <div class="col-md-6">
+              <div class="product-detail pe-4 text-white">
+                <div class="product-title">
+                  <h4>Hongyan</h4>
+                  <h3>Product Name</h3>
+                </div>
+                <div class="product-desc mb-4">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem excepturi</p>
+                </div>
+                <div class="product-spec">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="spec-label">Engine</div>
+                      <div class="spec-value">
+                        430 - 480 HP <br>
+                        Cursor 13
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="spec-label">GVW/GCW</div>
+                      <div class="spec-value">
+                        GVW 41–58 Ton <br>GCW 150 Ton
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="spec-label">Axle Configuration</div>
+                      <div class="spec-value">
+                        6x4, 6x6, 8x4
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-btn mt-3">
+                  <a class="btn btn-danger" href="#">View more &gt;&gt; </a>
+                </div>
+              </div>
+            </div>
+            <!-- Product image -->
+            <div class="col-md-6">
+              <div class="product-img">
+                <img src="assets/img/tractorhead.png" alt="" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+  </main>
+  <div class="gap"></div>
+
+  <div class="gap"></div>
+  <footer class="footer mt-5">
+    <div class="top-footer text-white mb-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-4 p-3" style="margin-top: -30px;">
+            <h4 class="font-weight-bold">
+              Stay up-to-date with the newsletter
+            </h4>
+            <p class="mb-3 text-light">
+              Stay informed. Subscribe to our newsletter
+            </p>
+            <a href="#" class="btn btn-danger mr-4 px-4">Subscribe now</a>
+            <a href="#" class="btn-sosmed">
+              <img src="assets/img/footer/fb.png" alt="" class="img-fluid">
+            </a>
+            <a href="#" class="btn-sosmed">
+              <img src="assets/img/footer/ig.png" alt="" class="img-fluid">
+            </a>
+            <a href="#" class="btn-sosmed">
+              <img src="assets/img/footer/in.png" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-7">
+            <img src="assets/img/newsletter-banner.png" alt="" class="img-fluid img-footer-trucks w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-footer py-5"
+      style="background: url(assets/img/footer_bg.png); background-size: cover; background-position: center">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-2 mb-3">
+            <img src="assets/img/logo_footer.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-10">
+            <div class="row justify-content-end">
+              <div class="col-md-4">
+                <h6 class="mb-3 text-white font-weight-bold">ADDRESS</h6>
+                <p class="text-light">
+                  Gedung TMT 1, 3rd Floor Suite
+                  302, Jl. Raya Cilandak KKO No.1
+                  Jakarta 12560
+                </p>
+              </div>
+              <div class="col-md-4">
+                <h6 class="mb-3 text-white font-weight-bold">CONTACT</h6>
+                <p class="text-light mb-0">Phone: +62 21 2997 6849
+                </p>
+                <p class="text-light">Email: info@narayadiptabuana.co.id</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modal Define your truck -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    $(function () {
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 10) {
+          $(".navbar").addClass("active");
+        } else {
+          $(".navbar").removeClass("active");
+        }
+      });
+    });
+  </script>
+
+  <!-- Step wizard -->
+  <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/smart_wizard.min.css" rel="stylesheet"
+    type="text/css" />
+  <!-- <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/smart_wizard_theme_arrows.min.css" rel="stylesheet" type="text/css" /> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/jquery.smartWizard.min.js">
+  </script>
+
+</body>
+
+</html>

@@ -132,3 +132,17 @@ img.bg_man {
   left: 0;
   bottom: 0;
 }
+
+/* Products */
+.product-img {
+  margin-bottom: -120px;
+}
+
+.product {
+  border-radius: 20px;
+  margin-bottom: 7em!important;
+}
+.spec-value {
+  font-weight: bold;
+  margin-top: 5px;
+}
