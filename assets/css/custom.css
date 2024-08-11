@@ -108,6 +108,7 @@ img.img-offside {
   position: absolute;
   max-width: 200px;
   left: -40px;
+  bottom: 65px;
 }
 
 div#vehicle-model-slider .card {
