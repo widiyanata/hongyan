@@ -88,7 +88,7 @@ img {
 .company-overview-text {
   background: #2e435d8f;
   border-radius: 100px 0 0;
-  padding-left: 8em!important;
+  padding-left: 6em!important;
   margin-top: 4em;
 }
 
@@ -118,8 +118,12 @@ div#vehicle-model-slider .card {
 }
 
 .top-footer {
-  background: #13304a;
-  height: 305px;
+  background-color: #13304a;
+  background-image: url(../img/homepage/stayuptodate_pattern.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  /* height: 305px; */
 }
 
 li.nav-item.active a {
