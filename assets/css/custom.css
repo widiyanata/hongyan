@@ -140,7 +140,7 @@ img.bg_man {
 
 /* Products */
 .product-img {
-  margin-bottom: -120px;
+  margin-bottom: -160px;
 }
 
 .product {
@@ -161,4 +161,14 @@ img.bg_man {
 .swipper-wrapper {
   overflow: hidden;
   padding: 0 2em;
+}
+
+/* Core Values */
+.core-values-header {
+  border-radius: 0 60px 60px 0;
+  margin-right: 6em!important;
+}
+.core-values-header-2 {
+  border-radius: 60px 0px 0px 60px;
+  margin-left: 6em !important;
 }
