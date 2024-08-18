@@ -222,3 +222,44 @@ img.bg_man {
 .product-related-img {
   border-left: 4px solid #555;
 }
+
+/* Company Profile */
+.profile-header-img {
+  margin-right: -100px;
+}
+
+.profile-header{
+  overflow: hidden;
+}
+
+/* Swiper */
+.status {
+  /* padding: 0px 40px; */
+  display: flex;
+  /* justify-content: center; */
+  border-top: 2px solid #13538b;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+
+.status span {
+  font-weight: 600;
+  padding-top: 40px;
+}
+.status span:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 1px solid #13538b;
+  position: absolute;
+  top: -8px;
+  /* left: calc(50% - 12px); // align circle to center */
+  left: 0;
+  transition: all 200ms ease-in;
+}
+
+.milestone-swiper .swiper-slide {
+  margin-right: 0!important;
+}
