@@ -263,3 +263,16 @@ img.bg_man {
 .milestone-swiper .swiper-slide {
   margin-right: 0!important;
 }
+
+/* Vision Mission */
+.vision-mission-text {
+  padding: 3em 3em 3em 9em;
+  border-radius: 180px 0 0 180px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  top: 50px!important;
+}
+.swiper-button-next {
+  right: -3px!important;
+}
