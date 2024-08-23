@@ -321,3 +321,11 @@ section.latest-news .card , .news-list .card{
 .news-list .card img {
   border-radius: 1em 1em 0 0;
 }
+
+.rounded-4 {
+  border-radius: 1em!important;
+}
+
+.rounded-top-4 {
+  border-radius: 1em 1em 0 0!important;
+}
