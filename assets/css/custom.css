@@ -4,7 +4,21 @@
        url("../fonts/stratum2-bold-webfont.ttf");
 } */
 
-body {}
+@font-face {
+  font-family: "Stretch-pro";
+  src: url("../fonts/StretchPro.otf")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  /* font-family: "Stretch-pro", sans-serif; */
+  font-weight: bold!important;
+}
 
 img {
   max-width: 100%;
