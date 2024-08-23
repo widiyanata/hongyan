@@ -266,3 +266,12 @@ img.bg_man {
 .swiper-button-next {
   right: -3px !important;
 }
+
+/* Parts and Services */
+.part-services-item img {
+  border-radius: 20px!important;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+}
