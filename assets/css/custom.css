@@ -329,3 +329,7 @@ section.latest-news .card , .news-list .card{
 .rounded-top-4 {
   border-radius: 1em 1em 0 0!important;
 }
+
+.btn-sosmed {
+  display: inline-block;
+}
