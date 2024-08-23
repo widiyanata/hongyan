@@ -309,3 +309,15 @@ img.bg_man {
 .network-locations .card-body {
   padding: 1em 2em;
 }
+
+/* News */
+section.latest-news .card , .news-list .card{
+  border-radius: 1em;
+}
+
+.latest-news img {
+  border-radius: 1em 0 0 1em;
+}
+.news-list .card img {
+  border-radius: 1em 1em 0 0;
+}
