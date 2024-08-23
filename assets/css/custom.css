@@ -40,11 +40,11 @@ p {
   border-color: #49b89a;
 }
 
-.btn-danger, .bg-danger {
+/* .btn-danger, .bg-danger {
   color: #fff;
   background-color: #d9534f !important;
   border-color: #d43f3a;
-}
+} */
 
 .text-primary {
   color: #2d425c!important;
@@ -332,4 +332,12 @@ section.latest-news .card , .news-list .card{
 
 .btn-sosmed {
   display: inline-block;
+}
+
+.product-desc p {
+  color: #fff!important;
+}
+.product-title h4 {
+  text-transform: uppercase;
+  font-family: 'Stretch-pro', sans-serif;
 }
