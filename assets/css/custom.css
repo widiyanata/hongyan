@@ -24,10 +24,14 @@ img {
   max-width: 100%;
 }
 
-.btn-primary, .bg-primary, .text-primary {
+.btn-primary, .bg-primary {
   color: #fff;
   background-color: #2d425c !important;
   border-color: #2f445d;
+}
+
+.text-primary {
+  color: #2d425c!important;
 }
 
 .navbar {
