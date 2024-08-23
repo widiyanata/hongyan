@@ -24,14 +24,34 @@ img {
   max-width: 100%;
 }
 
+p {
+  color: #0000007a;
+}
+
 .btn-primary, .bg-primary {
   color: #fff;
   background-color: #2d425c !important;
   border-color: #2f445d;
 }
 
+.btn-success, .bg-success {
+  color: #fff;
+  background-color: #52c0a2 !important;
+  border-color: #49b89a;
+}
+
+.btn-danger, .bg-danger {
+  color: #fff;
+  background-color: #d9534f !important;
+  border-color: #d43f3a;
+}
+
 .text-primary {
   color: #2d425c!important;
+}
+
+.text-success {
+  color: #52c0a2!important;
 }
 
 .navbar {
@@ -274,4 +294,17 @@ img.bg_man {
 
 .header {
   border-bottom: 1px solid #eee;
+}
+
+/* Networks */
+
+.network-locations .card {
+  border-radius: 20px!important;
+}
+.network-locations .card-header {
+  border-radius: 20px 20px 0 0!important;
+  padding: 1em 2em;
+}
+.network-locations .card-body {
+  padding: 1em 2em;
 }
