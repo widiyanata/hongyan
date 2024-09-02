@@ -392,6 +392,10 @@ section.latest-news .card , .news-list .card{
   .specs-row {
     height: auto!important;
   }
+
+  .profile-header-img {
+    margin-right: 0!important;
+  }
 }
 
 div#vehicle-model-slider .swiper-slide .card-body {
