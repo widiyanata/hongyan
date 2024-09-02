@@ -197,7 +197,7 @@ img.bg_man {
   border-radius: 20px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 426px) {
   .product-detail-specs {
     height: 120px;
   }
@@ -366,7 +366,7 @@ section.latest-news .card , .news-list .card{
   margin-top: -40px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   .swiper-button-next:after, .swiper-button-prev:after {
     font-size: 24px!important;
   }
