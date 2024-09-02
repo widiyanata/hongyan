@@ -122,9 +122,9 @@ p {
 /* Vehicle model slider */
 img.img-offside {
   position: absolute;
-  max-width: 170px;
+  max-width: 300px;
   left: -30px;
-  bottom: 65px;
+  bottom: 160px;
 }
 
 #vehicle-model-slider .card {
@@ -279,7 +279,7 @@ img.bg_man {
   border-radius: 180px 0 0 180px;
 }
 
-.swiper-button-prev, .swiper-button-next {
+#milestone .swiper-button-prev, #milestone .swiper-button-next {
   top: 50px !important;
 }
 
@@ -293,7 +293,7 @@ img.bg_man {
 }
 
 .header {
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 
 /* Networks */
@@ -340,4 +340,47 @@ section.latest-news .card , .news-list .card{
 .product-title h4 {
   text-transform: uppercase;
   font-family: 'Stretch-pro', sans-serif;
+}
+
+.banner-overview {
+  background: url(../img/homepage/companyoverview_building.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .company-overview-text {
+    padding-left: 1em!important;
+    margin-top: 0;
+    border-radius: 0;
+    background: #3f5c7f;
+  }
+}
+
+.img-footer-trucks {
+  width: 400px !important;
+  margin-bottom: -70px;
+  margin-top: -40px;
+}
+
+@media screen and (max-width: 425px) {
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 24px!important;
+  }
+  
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, -5px)!important;
+  }
+  .img-footer-trucks {
+    width: 300px !important;
+    margin-top: 0 !important;
+  }
+
+  .header li.nav-item.active a {
+    text-align: left!important;
+  }
+}
+
+div#vehicle-model-slider .swiper-slide .card-body {
+  padding-top: 4em;
+  padding-bottom: 3em;
 }

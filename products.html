@@ -28,12 +28,12 @@
   <header>
     <!-- Navigasi -->
     <div class="header ">
-      <nav class="navbar navbar-expand-lg navbar-light py-4  px-5 navbar-homepage">
+      <nav class="navbar navbar-expand-lg navbar-light py-lg-4  px-lg-5 navbar-homepage">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="assets/img/logo.png" width="100px" height="auto" alt="" />
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <!-- <span class="navbar-toggler-icon"></span> -->
             <i class="fa fa-bars"></i>
@@ -126,18 +126,18 @@
         ">
       Products
     </h5>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <button class="navbar-toggler d-lg-none me-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav ms-3 me-auto mt-2 mt-lg-0 text-uppercase pl-3 gap-3">
-        <li class="nav-item active">
-          <a class="nav-link " href="#">Hongyan</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="#">Hongyan 2</a>
+      <ul class="navbar-nav ms-3 me-auto mt-2 mt-lg-0 text-uppercase pl-3 gap-lg-3">
+        <li class="nav-item">
+          <a class="nav-link" href="product-detail.html">Tractorhead E4</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Hongyan 3</a>
+          <a class="nav-link" href="product-detail-rigid.html">Rigid E3/E4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product-detail-ev.html">EV</a>
         </li>
       </ul>
     </div>
@@ -150,7 +150,7 @@
     <div class="container">
       <div class="products">
         <div class="product my-5 px-5 py-4" style="
-          background-image: linear-gradient(171deg, #434343, #00000000), url(http://via.placeholder.com/800x600);
+          background-image: linear-gradient(171deg, #434343, #00000000), url(assets/img/product-detail/bg-rigid.png);
       
           /* Ensure the background covers the entire element */
               background-size: cover;
@@ -166,7 +166,7 @@
               <div class="product-detail pe-4 text-white">
                 <div class="product-title">
                   <h4>Hongyan</h4>
-                  <h3 class="h1 text-uppercase">Product Name</h3>
+                  <h3 class="h1 text-uppercase">RIGID E3/E4</h3>
                 </div>
                 <div class="product-desc mb-4">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem excepturi</p>
@@ -202,13 +202,13 @@
             <!-- Product image -->
             <div class="col-md-6">
               <div class="product-img">
-                <img src="assets/img/tractorhead.png" alt="" class="w-100">
+                <img src="assets/img/product-detail/rigid/rigid-6x4.png" alt="" class="w-100">
               </div>
             </div>
           </div>
         </div>
         <div class="product my-5 px-5 py-4" style="
-          background-image: linear-gradient(171deg, #434343, #00000000), url(http://via.placeholder.com/800x600);
+          background-image: linear-gradient(171deg, #434343, #00000000), url(assets/img/product-detail/bg-product-detail-1.png);
       
           /* Ensure the background covers the entire element */
               background-size: cover;
@@ -224,7 +224,7 @@
               <div class="product-detail pe-4 text-white">
                 <div class="product-title">
                   <h4>Hongyan</h4>
-                  <h3 class="h1 text-uppercase">Product Name</h3>
+                  <h3 class="h1 text-uppercase">Tractorhead E4</h3>
                 </div>
                 <div class="product-desc mb-4">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem excepturi</p>
@@ -266,7 +266,7 @@
           </div>
         </div>
         <div class="product my-5 px-5 py-4" style="
-          background-image: linear-gradient(171deg, #434343, #00000000), url(http://via.placeholder.com/800x600);
+          background-image: linear-gradient(171deg, #434343, #00000000), url(assets/img/product-detail/bg-ev.png);
       
           /* Ensure the background covers the entire element */
               background-size: cover;
@@ -282,7 +282,7 @@
               <div class="product-detail pe-4 text-white">
                 <div class="product-title">
                   <h4>Hongyan</h4>
-                  <h3 class="h1 text-uppercase">Product Name</h3>
+                  <h3 class="h1 text-uppercase">EV</h3>
                 </div>
                 <div class="product-desc mb-4">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem excepturi</p>
@@ -318,7 +318,7 @@
             <!-- Product image -->
             <div class="col-md-6">
               <div class="product-img">
-                <img src="assets/img/tractorhead.png" alt="" class="w-100">
+                <img src="assets/img/product-detail/ev/ev-1.png" alt="" class="w-100">
               </div>
             </div>
           </div>
@@ -355,7 +355,7 @@
             </a>
           </div>
           <div class="col-md-5 text-end">
-            <img src="assets/img/stayuptodate_truck.png" alt="" class="img-fluid img-footer-trucks w-100" style="width: 400px !important;margin-bottom: -70px;margin-top:-40px">
+            <img src="assets/img/stayuptodate_truck.png" alt="" class="img-fluid img-footer-trucks w-100" style="">
           </div>
         </div>
       </div>
